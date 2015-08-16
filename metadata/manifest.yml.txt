@@ -1,6 +1,6 @@
-Name: pertamax
-Cartridge-Short-Name: pertamax
-Display-Name: pertamax 1.4.1
+Name: go
+Cartridge-Short-Name: GO
+Display-Name: Go 1.4.1
 Version: 1.4.1
 Versions:
 - 1.4.1
@@ -9,20 +9,20 @@ Versions:
 - 1.2.2
 - 1.1.2
 - 1.0.3
-Website: https://github.com/andgto/pertamax
+Website: https://github.com/smarterclayton/openshift-go-cart
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: andgto
+Cartridge-Vendor: smarterclayton
 Categories:
 - service
 - golang
 - web_framework
 Provides:
-- pertamax-1.4.1
-- pertamax
-- pertamax (version) = 1.2.2
+- go-1.4.1
+- go
+- go (version) = 1.2.2
 - go (version) = 1.1.2
-- pertamax (version) = 1.1
-- pertamax (version) = 1
+- go (version) = 1.1
+- go (version) = 1
 Scaling:
   Min: 1
   Max: -1
@@ -48,7 +48,7 @@ Subscribes:
     Required: false
 Group-Overrides:
 - components:
-  - pertamax-1.1
+  - go-1.1
   - web_proxy
 Endpoints:
 - Private-IP-Name: IP
@@ -67,15 +67,15 @@ Endpoints:
 Install-Build-Required: true
 Version-Overrides:
   1.0.3:
-    Display-Name: pertamax 1.0.3
+    Display-Name: Go 1.0.3
     Provides:
-    - pertamax-1.0
-    - pertamax
-    - pertamax (version) = 1.0.3
-    - pertamax (version) = 1.0
-    - pertamax (version) = 1
+    - go-1.0
+    - go
+    - go (version) = 1.0.3
+    - go (version) = 1.0
+    - go (version) = 1
     Group-Overrides:
     - components:
-      - pertamax-1.0
+      - go-1.0
       - web_proxy
-Source-Url: https://github.com/andgto/pertamax/archive/master.zip
+Source-Url: https://github.com/smarterclayton/openshift-go-cart/archive/master.zip
